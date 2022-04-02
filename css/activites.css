@@ -1,0 +1,58 @@
+/* Bloc activitees */
+#activites {
+    margin-bottom: 60px;
+    ;
+}
+
+.activites__list {
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    
+}
+
+.activites__list .column {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.activites__list .column .activites__card img {
+    width: 100%;
+    height: calc(100% - 67px);
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.activites__list .column .activites__card {
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    border-radius: 25px;
+}
+
+.activites__list .column .activites__card h3 {
+    padding: 10px;
+    margin: 0px;
+}
+.double{
+    height: 100%;
+}
+
+.card2{
+    height: 60%;
+    
+}
+.card1{
+    height: 100%;
+}
+.card3{
+    height: 35%;
+}
+.card5{
+    height: 48%;
+   
+}
+.column.double{
+    gap: 30px;
+}

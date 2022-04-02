@@ -1,0 +1,125 @@
+/* Responsive */
+@media only screen and (max-width : 992px) {
+    header{
+        display: block;
+    }
+    .header__logo{
+        text-align: center;
+    }
+    header nav ul li {
+        padding: 50px 25px 10px 0;
+        border-bottom: 4px solid #F2F2F2;
+        border-top: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        padding-left: 0;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .filtres__wrap{
+        display: flex;
+        gap: 20px;
+    }
+    #hotel{
+        flex-direction: column-reverse;
+    }
+    .hebergement__card{
+        flex-basis: 45%;
+    }
+    footer{
+        gap: 70px;
+    }
+
+}
+@media only screen and (max-width : 768px) {
+.wrapper{
+    margin: 0 ;
+}
+.marge__media{
+    margin-left: 20px;
+}
+.hebergement{
+    background-color: white;
+
+}
+.populaire{
+
+    padding-bottom: 20px;
+}
+    .recherche__nav input{
+      padding-left: 0.5rem;
+  }
+    .filtre{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filtres__wrap{
+        display: flex;
+        gap: 20px;
+    }
+    .card{
+        flex-basis: 100%;
+        margin: 0;
+        gap: 0;
+    }
+    .populaire{
+        border-radius: 0;
+        
+    }
+    .populaire__card{
+        margin: 0;
+    }
+.populaire__cardText h2 p{
+    font-size: 10px;
+}
+.activites__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    
+}
+.activites__list .column {
+    width: auto;
+    margin-bottom: 30px;
+  
+}
+.activites__card{
+    
+    height: 300px;
+}
+.card2{
+    height: 300px;
+    flex-basis: auto!important;
+}
+.activites__list .column.double .activites__card {
+    height:300px
+}
+.activites__list .column .activites__card {
+    height:300px
+}
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .media__rechercher{
+        display: none;
+    }
+    .media__i{
+        display: block;
+    }
+    .fa-search{
+        color: white;
+    }
+   
+}

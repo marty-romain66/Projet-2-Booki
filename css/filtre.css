@@ -1,0 +1,56 @@
+/* Bloc filtres */
+.filtre{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+}
+.filtres__wrap{
+    display: flex;
+    gap: 20px;
+}
+
+.filtre__btn :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.filtre a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+}
+.filtre a i {
+    padding: 1rem;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;
+
+}
+
+.filtre span {
+    color: black;
+    padding : 0 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+.fa-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    color: #0065FC;
+}
